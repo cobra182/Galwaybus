@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Galway Bus Locator</string>
+    
+    <string name="bus_number">Select Bus Route from Eyre Square start</string>
+    
+
+    
+    <string name="salthillScreen">Salthill</string>
+    <string name="merlinparkScreen">Merlin Park</string>
+    <string name="cspark">Castlepark Route</string>    
+     <string name="newcastle">Newcastle Route</string>   
+        <string name="ballybane">Ballybane</string>   
+<string name="bothar">Bothar an Choiste</string>   
+<string name="parkmore">Parkmore</string>   
+ <string name="oranmore">Oranmore</string>   
+  <string name="direct411">City Direct 411</string> 
+  <string name="direct412">City Direct 412</string> 
+  <string name="direct413">City Direct 413</string> 
+    <string name="direct414">City Direct 414</string>   
+    
+    <string-array name="bus_array">
+        <item>Salthill 401</item>
+        <item>Merlin Park 402</item>
+        <item>Castlepark 403</item>
+        <item>Newcastle 404</item>
+        <item>Ballybane 405</item>
+        <item>Bothar an Choiste 407</item>
+        <item>Parkmore 409</item>
+        <item>Oranmore 410</item>
+    </string-array>
+    
+    <!-- Salthill bus route -->
+  <string name="Bus Timing 20">Salthill 401 Schedule is every 20 minutes</string> 
+  <string name="6:40">First Bus</string>
+  <string name="12:00">Mid Day Bus</string>
+  <string name="change">Bus Changes to 40 minutes</string>
+  <string name="23:20">Last Bus of the night</string>
+  <string name="Sat1">Saturday bus every 40 minutes starting at 7:40 and 8:20,
+      20 Min service resumes at 8:20.</string>
+      
+  <string name="Sun1">Sunday bus every 40 minutes starting at 10:00.
+      Last Bus 23:20</string>
+  
+  <string name="first">6:40</string>
+  <string name="middle">12:00</string>
+  <string name="40min">19:20</string>
+  <string name="last">23:20</string>
+  
+  <!-- Merlinpark route -->
+
+  <string name="Bus Timing 30m">Merlin Park 402 Schedule is every 30 minutes</string> 
+  <string name="mfirst">First Bus</string>
+  <string name="mmid">Mid Day Bus</string>
+  <string name="mchange">Bus Changes to 60 minutes</string>
+  <string name="mlast">Last Bus of the night</string>
+ 
+    
+  <string name="mmfirst">7:00</string>
+  <string name="mmmiddle">12:00</string>
+  <string name="mmtimechange">19:30</string>
+  <string name="mmlastlast">23:30</string>
+    <string name="Sat2">Saturday: Bus starts at 7:30.</string>
+    <string name="Sun2">Sunday: Bus every 60 minutes starting at 10:00.
+        Last Bus 23:30</string>
+    
+    <!-- Castlepark route -->
+
+  <string name="Bus Timing 30c">Castlepark 403 Schedule is every 30 minutes</string> 
+  <string name="cfirst">First Bus</string>
+  <string name="cmid">Mid Day Bus</string>
+  <string name="cchange">Bus Changes to 60 minutes</string>
+  <string name="clast">Last Bus of the night</string>
+  
+  <string name="cpfirst">6:45</string>
+  <string name="cpmiddle">11:45</string>
+  <string name="cptimechange">19:15</string>
+  <string name="cplastlast">23:15</string>
+    <string name="Sat3">Saturday: Bus starts at 7:45.</string>
+    <string name="Sun3">Sunday: Bus every 60 minutes starting at 10:15.
+        Last Bus 23:15</string>
+  
+  <!-- Newcastle Route -->
+  
+    <string name="Bus Timing 30n">Newcastle 404 Schedule is every 30 minutes</string> 
+    <string name="nfirst">First Bus</string>
+  <string name="nmid">Mid Day Bus</string>
+  <string name="nchange">Bus Changes to 60 minutes</string>
+  <string name="nlast">Last Bus of the night</string>
+  
+  <string name="ncfirst">7:20</string>
+  <string name="ncmiddle">12:00</string>
+  <string name="nctimechange">20:05</string>
+  <string name="nclastlast">00:05</string>
+    <string name="Sat4">Saturday: Bus starts at 8:50 running every 60 minutes.</string>
+    <string name="Sun4">No Sunday service use 405 instead.</string>
+  
+   <!-- Ballybane Route -->
+  
+    <string name="Bus Timing 20b">Ballybane 405 Schedule is every 20 minutes</string> 
+    <string name="bfirst">First Bus</string>
+  <string name="bmid">Mid Day Bus</string>
+  <string name="bchange">Bus Changes to 40 minutes</string>
+  <string name="blast">Last Bus of the night</string>
+  
+  <string name="bbfirst">7:00</string>
+  <string name="bbmiddle">12:00</string>
+  <string name="bbtimechange">22:40</string>
+  <string name="bblastlast">00:00</string>
+    <string name="Sat5">Saturday: Bus starts at 8:20.</string>
+    <string name="Sun5">Sunday: Bus every 40 minutes starting at 10:20.
+        Last Bus 23:40</string>
+  
+   <!-- Bothar Route -->
+  
+   <string name="Bus Timing 40">Bothar 407 Schedule is every 40 minutes</string> 
+    <string name="bothfirst">First Bus</string>
+  <string name="bothmid">Mid Day Bus</string>
+  <string name="bothchange">Bus Changes to 60 minutes</string>
+  <string name="bothlast">Last Bus of the night</string>
+  
+  <string name="bothhfirst">6:40</string>
+  <string name="bothmiddle">12:00</string>
+  <string name="bothtimechange">19:20</string>
+  <string name="bothlastlast">23:20</string>
+    <string name="Sat6">Saturday: Bus starts at 7:20.</string>
+    <string name="Sun6">Sunday: Bus every 60 minutes starting at 10:20.
+        Last Bus 23:20</string>
+  
+   <!-- Parkmore Route -->
+  
+     <string name="Bus Timing 15">Parkmore 409 Schedule is every 15 minutes</string> 
+    <string name="pfirst">First Bus</string>
+  <string name="pmid">Mid Day Bus</string>
+  <string name="pchange">Bus Changes to 30 minutes</string>
+  <string name="plast">Last Bus of the night</string>
+  
+  <string name="pmfirst">6:30</string>
+  <string name="pmmiddle">12:00</string>
+  <string name="pmtimechange">19:00</string>
+  <string name="pmlastlast">23:30</string>
+    <string name="Sat7">Saturday: Bus every 30 minutes starting at 7:00 15 Min service resumes at 9:00.</string>
+    <string name="Sun7">Sunday: Bus every 30 minutes starting at 9:00.
+        Last Bus 23:30</string>
+        
+   <!-- Oranmore Route -->
+  
+     <string name="Bus Timing 60">Oranmore 410 Schedule is every 60 minutes</string> 
+    <string name="ofirst">First Bus</string>
+  <string name="omid">Mid Day Bus</string>
+  <string name="ochange">Bus Changes to 60 minutes</string>
+  <string name="olast">Last Bus of the night</string>
+  
+  <string name="onfirst">7:15</string>
+  <string name="onmiddle">12:15</string>
+  <string name="onlastlast">19:15</string>
+  <string name="Sat8">Saturday: Service same as week day.</string>
+    <string name="Sun8">No Sunday Service.</string>
+  
+  <string name="oneway">One Trip Fare 1.80 €</string>
+  <string name="day">Day Saver Fare 3.90 €</string>
+  
+     <!-- City Direct 411 Route -->
+  
+      <string name="cdBus Timing 30">City Direct 411 runs every 30 minutes.</string> 
+            <string name="cdBus411 route">Eyre Square to Knocknacarra</string> 
+      
+    <string name="cdfirst">First Bus</string>
+  <string name="cdmid">Mid Day Bus</string>
+  <string name="cdchange">Bus Changes to 60 minutes</string>
+  <string name="cdlast">Last Bus of the night</string>
+  
+    <string name="cddfirst">8:15</string>
+  <string name="cdmiddle">12:15</string>
+  <string name="cdlastlast">23:15</string>
+    <string name="cdtimechange">19:15</string>
+  <string name="cdSat">Saturday: Service same as week day every 30 minute. Last bus 2100 from Eyre Square.</string>
+    <string name="cdSun">Sunday every 30 minute starting at 11:15-1945.</string>
+    
+     <!-- City Direct 412 Route -->
+    
+  <string name="412Bus Timing 30">City Direct 412 runs every 30 minutes.</string> 
+     <string name="cdBus412 route">Eyre Square to Western Dist Rd.</string> 
+      
+  <string name="412dfirst">First Bus</string>
+  <string name="412mid">Mid Day Bus</string>
+<!--   <string name="412change">Bus Changes to 60 minutes</string> -->
+  <string name="412last">Last Bus of the night</string>
+  
+    <string name="412cdfirst">7:30</string>
+  <string name="412middle">12:00</string>
+  <string name="412lastlast">18:00</string>
+  <string name="412Sat">No Saturday or Sunday service on this route..</string>
+<!--     <string name="412Sun">Sunday every 30 minute starting at 11:15-1945.</string> -->
+    
+
+     <!-- City Direct 413 Route -->
+    
+  <string name="413Bus Timing 60">City Direct 413 runs every 60 minutes.</string> 
+  <string name="cdBus413 route">Eyre Squre to Knocknacarra via Salthill</string> 
+  <string name="413dfirst">First Bus</string>
+  <string name="413mid">Mid Day Bus</string>
+  <string name="413change">Bus Changes to 60 minutes</string>
+  <string name="413last">Last Bus of the night</string>
+  
+    <string name="413cdfirst">8:50</string>
+        <string name="413timechange">9:25</string>
+  <string name="413middle">12:25</string>
+  <string name="413lastlast">17:25</string>
+  <string name="413Sat">No Saturday or Sunday service on this route..</string>
+<!--     <string name="412Sun">Sunday every 30 minute starting at 11:15-1945.</string> -->
+      
+      
+           <!-- City Direct 414 Route -->
+    
+  <string name="414Bus Timing 60">City Direct 414 every 2-4 hours. </string> 
+   <string name="cdBus414 route">Eyre Square to Barna</string> 
+  <string name="414dfirst">First Bus</string>
+  <string name="414mid">Mid Day Bus</string>
+<!--   <string name="414change">Bus Changes to 60 minutes</string> -->
+  <string name="414last">Last Bus of the night</string>
+  
+    <string name="414cdfirst">10:00</string>
+     <string name="414cdsecond">12:00</string>
+      <string name="414cdthird">13:30</string>
+  <string name="414middle">17:00</string>
+  <string name="414lastlast">18:30</string>
+  <string name="414Sat">No Saturday or Sunday service on this route.</string>
+
+</resources>

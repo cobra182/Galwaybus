@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FBFBEF"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.73"
+        android:gravity="center"
+        android:text="@string/bus_number"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:onClick="handleClick"
+            android:text="@string/salthillScreen" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="handleClick1"
+            android:text="@string/merlinparkScreen" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="handleClick5"
+            android:text="@string/ballybane" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:onClick="handleClick6"
+            android:text="@string/bothar" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:onClick="handleClick3"
+            android:text="@string/newcastle" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="handleClick8"
+            android:text="@string/oranmore" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="handleClick2"
+            android:text="@string/cspark" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:onClick="handleClick7"
+            android:text="@string/parkmore" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/Button09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:onClick="handleClick9"
+            android:text="@string/direct411" />
+
+        <Button
+            android:id="@+id/Button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="handleClick10"
+            android:text="@string/direct412" />
+   
+
+        <Button
+            android:id="@+id/Button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:gravity="center"
+            android:onClick="handleClick11"
+            android:text="@string/direct413" />
+
+        <Button
+            android:id="@+id/Button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:onClick="handleClick12"
+            android:text="@string/direct414" />
+    </TableRow>
+    
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+    
+        <ImageView
+        android:id="@+id/cdlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:src="@drawable/cdlogo" />
+
+</TableLayout>

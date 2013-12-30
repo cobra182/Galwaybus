@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/TextView01"
+         android:layout_width="fill_parent"
+                android:layout_height="30dp"
+        android:text="@string/Bus Timing 30c"
+        android:textStyle="bold"
+        android:gravity="center"
+           android:textColor="#FFBF00"/>
+     
+              
+         <View 
+         android:layout_height="10dp"
+         android:layout_width="fill_parent"
+		android:background="#424242"/>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cfirst"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpfirst"
+           android:textColor="#FFBF00" />
+    
+             <View 
+         android:layout_height="1dp"
+         android:layout_width="fill_parent"
+		android:background="#424242"/>
+             
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cmid"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpmiddle"
+           android:textColor="#FFBF00" />
+    
+         <View 
+         android:layout_height="1dp"
+         android:layout_width="fill_parent"
+		android:background="#424242"/>
+         
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cchange"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cptimechange"
+           android:textColor="#FFBF00" />
+
+             <View 
+         android:layout_height="1dp"
+         android:layout_width="fill_parent"
+		android:background="#424242"/>
+             
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clast" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TextView09"
+       android:layout_width="fill_parent"
+                android:layout_height="30dp"
+        android:text="@string/cplastlast"
+           android:textColor="#FFBF00" />
+    
+             <View 
+         android:layout_height="1dp"
+         android:layout_width="fill_parent"
+		android:background="#424242"/>
+    
+            <TextView
+        android:id="@+id/TextView10"
+         android:layout_width="fill_parent"
+                android:layout_height="30dp"
+        android:text="@string/Sat3"
+        android:textStyle="bold" />
+            
+                     <View 
+         android:layout_height="1dp"
+         android:layout_width="fill_parent"
+		android:background="#424242"/>
+    
+        <TextView
+        android:id="@+id/TextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sun3"
+        android:textStyle="bold" />
+
+               <ImageView 
+    android:id="@+id/map"
+    android:src="@drawable/map"
+      android:clickable="true"  
+    android:onClick="handlemaplarge"  
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableLayout>
+
+
+
+</LinearLayout>

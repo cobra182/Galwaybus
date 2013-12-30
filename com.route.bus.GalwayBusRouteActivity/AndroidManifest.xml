@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.route.bus"
+    android:versionCode="17" android:versionName="2.1">
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+        <!-- android:theme="@style/Style" -->
+        <activity
+            android:name=".GalwayBusRouteActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main2"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".merlin"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Castlepark"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".newcastle"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ballybane"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".bothar"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".parkmore"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".oranmore"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".direct411"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".direct412"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".direct413"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".direct414"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ballybane"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".bothar"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".Castlepark"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".merlin"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".newcastle"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".oranmore"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".parkmore"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".main2"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".maplarge"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".cdmaplarge"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".overview"
+            android:theme="@android:style/Theme.NoTitleBar" />
+                <activity
+            android:name=".direct411"
+            android:theme="@android:style/Theme.NoTitleBar" />
+                        <activity  
+            android:name=".direct412"
+            android:theme="@android:style/Theme.NoTitleBar" />
+                                <activity
+            android:name=".direct413"
+            android:theme="@android:style/Theme.NoTitleBar" />
+                                        <activity
+            android:name=".direct414"
+            android:theme="@android:style/Theme.NoTitleBar" />
+                                                <activity
+            android:name=".cdmaplarge"
+            android:theme="@android:style/Theme.NoTitleBar" />
+    </application>
+    
+
+</manifest>
